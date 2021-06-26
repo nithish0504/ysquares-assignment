@@ -1,0 +1,33 @@
+#### Register User Request
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{    
+    "userName": "nithishArram",
+    "gotemail": "nithish0504@gmail.com",
+    "gotpassword": "passkey"
+}
+
+### User Login Request
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{    
+    "userEmail":"nithish0504@gmail.com",
+    "userPassword": "passkey"
+}
+
+
+
+
+#### Get All Users Request
+GET http://localhost:3000/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pdGhpc2gwNTA0QGdtYWlsLmNvbSIsImlhdCI6MTYyNDcxMDM0MX0.YA9od6etMZSyhcLvY4Rh7KMJjGw9R38gpABxLHiqSVw
+
+
+
+
+
+
+
